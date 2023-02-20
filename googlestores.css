@@ -1,0 +1,267 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   background-color: white;
+}
+.header{
+   width: 100%;
+   height: 60px;
+   background-color: white;
+   display: flex;
+   position: fixed;
+}
+.middlespace{
+    width: 62.5%;
+    height: 50px;
+    background-color: white;
+}
+.googleicon{
+    width: 15.5%;
+    height: 50px;
+    background-color: white ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchicon{
+    width: 4%;
+    height: 50px;
+    background-color: white;
+}
+.help{
+    width: 4%;
+    height: 50px;
+    background-color: white;
+}
+.store{
+    width: 4%;
+    height: 50px;
+    background-color: white;
+}
+.homeicon{
+    width: 4%;
+    height: 50px;
+    background-color: white;
+}
+.searchicon,.help,.store,.homeicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.L1{
+padding-top: 100px;
+width: 100%;
+height:260px;
+background-color: white;
+
+}
+.text1{
+    font-size: 60px;
+    line-height: 68px;
+    letter-spacing: -2px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+.text2{
+font-size:60px ;
+color: rgb(24 128 56);
+letter-spacing: -2px;
+font-weight: 700;
+display: flex;
+justify-content: center;
+}
+.L2{
+    display:flex;
+    justify-content: space-evenly;
+}
+.L21a{
+    width: 100%;
+    height: 474px;
+    background-color: white;   
+}
+.L21,.L22,.L23,.L24{
+    width: 22%;
+    height: 474px;
+    background-color: rgb(248, 249, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.L21a input,label{
+    margin-top: 16px;
+}
+.L21a label{
+    margin-left: 5px;
+}
+#myCheckbox{
+    appearance: none;
+    width:15px;
+    height: 15px;
+    border: 1px solid rgb(147, 143, 143);
+    background-color: rgb(255, 255, 255);
+}
+.L22 img{
+    height: 300px;
+    width:300px;
+}
+.L23 img{
+    height: 300px;
+    width:300px;
+}
+.L24 img{
+    height: 300px;
+    width:300px;
+}
+.sp1{
+    width: 100%;
+    height: 139px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sp11,.sp12,.sp13,.sp14{
+    width: 22%;
+    height: 139px;
+    background-color: white;
+}
+.sp11,.sp12,.sp13,.sp14 p{
+    padding-top: 10px;
+}
+.L3{
+    display:flex;
+    justify-content: space-evenly;
+}
+.L31,.L32,.L33,.L34{
+    width: 22%;
+    height: 474px;
+    background-color: rgb(248, 249, 248);
+    display: flex;
+justify-content: center;
+align-items: center;
+    
+}
+.L31a{
+    width: 100%;
+    height: 474px;
+    background-color: white;   
+}
+.L32 img{
+    height: 300px;
+    width:300px;
+}
+.L33 img{
+    height: 300px;
+    width:300px;
+}
+.L34 img{
+    height: 300px;
+    width:300px;
+}
+.sp2{
+    width: 100%;
+    height: 84px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sp21,.sp22,.sp23,.sp24{
+    width: 22%;
+    height: 84px;
+    background-color: white;
+}
+.sp21,.sp22,.sp23,.sp24 p{
+    padding-top: 10px;
+}
+.L4{
+    width: 100%;
+    height:282px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.L4a{
+    width: 10%;
+    height: 160px;
+    background-color: white;
+}
+.L4a p{
+    position: relative;
+    top: 24px;
+}
+.L4b{
+    width: 10%;
+    height: 160px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.L4c{
+    width: 16%;
+    height: 160px;
+    background-color: white;
+}
+.footer{
+    width: 100%;
+    height: 53px;
+    background-color: white;
+    display: flex;
+    box-sizing: border-box;
+    border-top: 1px solid #f2f2f2;
+}
+.ff1{
+    width:8%;
+    height:53px;
+    background-color: white;
+}
+.ff2{
+    width:15%;
+    height:53px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ff3{
+    width:30%;
+    height:53px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+}.ff4{
+    width:37%;
+    height:53px;
+    background-color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+.ff5{
+    width:10%;
+    height:53px;
+    background-color: white;
+}
+.ff2 img{
+    width: 20px;
+height: 20px;
+}
+.ff3 img{
+    width: 20px;
+    height: 20px;
+}
+.ff4 p{
+    font-size: small;
+}
